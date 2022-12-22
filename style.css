@@ -1,0 +1,13 @@
+.container {
+  display: inline-block;
+  text-align: center;
+  width: 94%;
+  margin: 0 auto;
+  background: goldenrod;
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    width: 640px;
+  }
+}
